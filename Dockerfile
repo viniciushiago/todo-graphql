@@ -23,4 +23,4 @@ EXPOSE 7212
 ENV ASPNETCORE_ENVIRONMENT Production
 
 # Comando para executar a aplicação quando o contêiner for iniciado
-ENTRYPOINT ["dotnet", "todo-graphql.dll"]
+ENTRYPOINT ["dotnet", "Graph.dll"]
