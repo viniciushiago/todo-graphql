@@ -11,7 +11,6 @@ COPY . .
 # Restaurar dependências e compilar o aplicativo
 RUN dotnet restore
 RUN dotnet publish -c Release -o out
-RUN dotnet ef database update --context GraphDbContext
 
 # Utilize a imagem oficial do ASP.NET Core Runtime para executar o aplicativo
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
