@@ -1,6 +1,7 @@
 using Graph.BussinessRules.Handlers;
 using Graph.BussinessRules.Request;
 using Graph.BussinessRules.Response;
+using Microsoft.AspNetCore.Cors;
 
 namespace Graph.Graph;
 

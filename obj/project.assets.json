@@ -3687,11 +3687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/vinicius/RiderProjects/Graph/Graph/Graph.csproj",
+      "projectUniqueName": "/home/vinicius/Projetos/todo-graphql/Graph.csproj",
       "projectName": "Graph",
-      "projectPath": "/home/vinicius/RiderProjects/Graph/Graph/Graph.csproj",
+      "projectPath": "/home/vinicius/Projetos/todo-graphql/Graph.csproj",
       "packagesPath": "/home/vinicius/.nuget/packages/",
-      "outputPath": "/home/vinicius/RiderProjects/Graph/Graph/obj/",
+      "outputPath": "/home/vinicius/Projetos/todo-graphql/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/vinicius/.nuget/NuGet/NuGet.Config"
@@ -3756,6 +3756,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3764,7 +3778,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/vinicius/.dotnet/sdk/6.0.412/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/vinicius/.dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
