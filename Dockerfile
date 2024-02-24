@@ -2,6 +2,9 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /app
 
+# Instalar o Entity Framework Core Tools
+RUN dotnet tool install --global dotnet-ef
+
 # Copie os arquivos do projeto para o contêiner
 COPY . .
 
