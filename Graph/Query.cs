@@ -11,7 +11,6 @@ public class Query
     {
         return handler.Execute();
     }
-
     public TarefaResponse GetTarefa([Service] IGetByIdTarefaHandler handler, GetByIdTarefaRequest request)
     {
         return handler.Execute(request);

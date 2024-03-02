@@ -39,6 +39,7 @@ builder.Services.AddDbContext<GraphDbContext>(options =>
 
 var app = builder.Build();
 
+app.UseCors("AllowAll");
 app.MapGraphQL();
 
 app.Run();
